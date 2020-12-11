@@ -1,3 +1,4 @@
+/* Load fonts */
 @font-face {
   font-family: 'Particle';
   src:  url('../fonts/Particle-Regular.otf')
@@ -13,6 +14,7 @@
   src: url('../fonts/SF-UI-Text-Regular.otf');
 }
 
+/* Format body */
 body {
   margin: 0;
   display: flex;
@@ -24,11 +26,12 @@ body {
   color: white;
 }
 
+/* Format paragraphs */
 p{
   font-family: "SF Pro Display";
 }
 
-
+/* Header formattting */
 h1, h2{
   font-family: 'Particle';
   font-size: 1.5em;
@@ -36,6 +39,7 @@ h1, h2{
   letter-spacing: 3px;
 }
 
+/* Format links and h3 */
 a, h3{
   font-family: 'SF Regular';
   color: whitesmoke;
@@ -152,6 +156,7 @@ button{
   align-items: flex-start
 }
 
+/* Format links */
 a {
   text-decoration: none;
   font-family: "SF Pro Display";

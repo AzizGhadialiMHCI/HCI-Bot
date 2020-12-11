@@ -6,8 +6,9 @@ import Resource from './Resource.js'
 
 
 const CannedResponses = () => {
+  // Set message state
     const [message, setMessage] = useState('');
-  
+  // Set voice commands and call back messages
     const commands = [
       {
         command: 'Autonomous Vehicles',
@@ -72,17 +73,21 @@ const CannedResponses = () => {
 
       },
     ]
+    // Record the transcript and whether or not the system is currently listening for voice
     const {
       interimTranscript,
       finalTranscript,
       listening,
     } = useSpeechRecognition({ commands });
    
+    // Record transcript
     useEffect(() => {
       if (finalTranscript !== '') {
         console.log('Got final result:', finalTranscript);
       }
     }, [interimTranscript, finalTranscript]);
+
+    // Make sure browser supports speech recognition 
     if (!SpeechRecognition.browserSupportsSpeechRecognition()) {
       return null;
     }
@@ -91,6 +96,7 @@ const CannedResponses = () => {
       console.log('Your browser does not support speech recognition software! Try Chrome desktop, maybe?');
     }
 
+    // Start listening for voice
     const listenContinuously = () => {
       
       SpeechRecognition.startListening({
