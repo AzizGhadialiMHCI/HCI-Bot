@@ -436,13 +436,16 @@ const CannedResponses = () => {
           {infoContent}
            {/* Control voice recognition features */}
             <div>
+              {/* Buttons to start and stop the voice capture */}
                 <button type="button" onClick={listenContinuously}>Start Exploring</button>
                 <button type="button" onClick={SpeechRecognition.stopListening}>Stop Listening</button>
+                {/* Display the wave animation if the system is listening */}
                 {listening ? <Siriwave className='siriwave' speed=".4" style="ios9" amplitude="2"/> : ""}
                 {!listening ? <Siriwave className='siriwave' speed=".4" style="ios9" amplitude="0"/> : ""}
             </div>
             {/* Show canned responsed for voice control */}
              <div id="cannedResponses">
+               {/* Map the canned responses to text elements */}
                {cannedText.map((topic, index) => (
                  <p className="cannedResponseText">{topic}</p>
                ))}

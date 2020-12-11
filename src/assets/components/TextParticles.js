@@ -1,15 +1,18 @@
 import React, { Component } from 'react'
 import Particles from "react-tsparticles";
 
+/* Creates a canvas of particles based on the loaded 
+SVG with a particular canvas size, scale, and x-y positions */
+
 class TextParticles extends Component{
 
     render(){
         return (
-          // Creates the particle animaiton from svg
-            <Particles 
-        height={this.props.height}
-        width={this.props.width}
-        options={{
+          // Creates the particle anmation from svg
+          <Particles 
+            height={this.props.height}
+            width={this.props.width}
+            options={{
             background: {
               color: ""
             },

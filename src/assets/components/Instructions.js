@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+// Component that display instructions on how to use the tool
 class Instructions extends Component {
 
     state = {showing: true}
@@ -14,6 +15,7 @@ class Instructions extends Component {
                     new popular papers related to the design of emerging technologies. To use HCI Bot click
                     start exploring and use the canned responses to select a topic. When you are done you can 
                     hit the stop listening button</p>
+                    {/* Hide the instructions when button is clicked */}
                     <button onClick={() => this.setState({ showing: !showing })}>Ok, I got it!</button>
                 </div>
             </div>
