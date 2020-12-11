@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-// import Stats from "./stats.js";
 import Particles from "react-tsparticles";
 
 class TextParticles extends Component{
 
     render(){
         return (
+          // Creates the particle animaiton from svg
             <Particles 
         height={this.props.height}
         width={this.props.width}

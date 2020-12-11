@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Siriwave from 'react-siriwave';
-import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 
 
 
