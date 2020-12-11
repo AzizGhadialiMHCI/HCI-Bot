@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HCI-Bot/static/css/main.721a4a51.chunk.css",
+    "main.js": "/HCI-Bot/static/js/main.1fbe91c0.chunk.js",
+    "main.js.map": "/HCI-Bot/static/js/main.1fbe91c0.chunk.js.map",
+    "runtime-main.js": "/HCI-Bot/static/js/runtime-main.d20c613e.js",
+    "runtime-main.js.map": "/HCI-Bot/static/js/runtime-main.d20c613e.js.map",
+    "static/js/2.fb3c51b9.chunk.js": "/HCI-Bot/static/js/2.fb3c51b9.chunk.js",
+    "static/js/2.fb3c51b9.chunk.js.map": "/HCI-Bot/static/js/2.fb3c51b9.chunk.js.map",
+    "static/js/3.d64f430d.chunk.js": "/HCI-Bot/static/js/3.d64f430d.chunk.js",
+    "static/js/3.d64f430d.chunk.js.map": "/HCI-Bot/static/js/3.d64f430d.chunk.js.map",
+    "index.html": "/HCI-Bot/index.html",
+    "static/css/main.721a4a51.chunk.css.map": "/HCI-Bot/static/css/main.721a4a51.chunk.css.map",
+    "static/js/2.fb3c51b9.chunk.js.LICENSE.txt": "/HCI-Bot/static/js/2.fb3c51b9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/HCI-Bot/static/media/SFProDisplay-Regular.1e1c0e29.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d20c613e.js",
+    "static/js/2.fb3c51b9.chunk.js",
+    "static/css/main.721a4a51.chunk.css",
+    "static/js/main.1fbe91c0.chunk.js"
+  ]
+}
